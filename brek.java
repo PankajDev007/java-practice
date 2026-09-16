@@ -9,6 +9,6 @@ class brek{
                 break;
             }
             System.out.println(no);
-        }while(no!=0);
+        }while(true);
     }
 }
