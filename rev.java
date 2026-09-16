@@ -8,6 +8,7 @@ class rev{
             no++;
 
         }
+        System.out.println();
 
     }
 }
