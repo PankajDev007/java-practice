@@ -1,10 +1,10 @@
 class rev{
     public static void main(String[] args) {
-        int no = 973;
+        int no = 9473;
         int digit;
         while(no<0){
             digit = no%10;
-            System.out.println(digit);
+            System.out.print(digit);
             no++;
 
         }
