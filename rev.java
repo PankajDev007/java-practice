@@ -5,6 +5,7 @@ class rev{
         while(no<0){
             digit = no%10;
             System.out.print(digit);
+            no = no/10;
             no++;
 
         }
