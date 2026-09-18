@@ -1,8 +1,20 @@
 class patterns {
-    void hollow_rectangle(int rows,int cols) {
+    public static void hollow_rectangle(int rows,int cols) {
+        for(int i=1;i<=rows;i++) {
+            for(int j=1;j<=cols;j++) {
+                if(i==1||i==cols||j==1||j==rows) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.println(" ");
+                }
+            }
+            System.out.println();
+        }
         
     }
     public static void main(String[] args) {
+        hollow_rectangle(4,5);
         
     }
 }
