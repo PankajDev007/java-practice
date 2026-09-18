@@ -32,7 +32,7 @@ class patterns {
                 for(int j=1;j<=(n-i);j++) {
                         System.out.print(" ");
                     }
-                    for(int j=1;j<=counter;j++) {
+                    for(int j=1;j<=i;j++) {
                         System.out.print(counter);
                         counter++;
                     }
