@@ -12,6 +12,10 @@ class tst {
 
                 
             }
+            for(int j=1;j<=(n-1);j++) {
+                System.out.print(" ");
+                
+            }
             System.out.println();
         }
         for(int i=n;i<=1;i--) {
@@ -23,6 +27,10 @@ class tst {
                 System.out.print("*");
                 
 
+                
+            }
+            for(int j=1;j<=(n-1);j++) {
+                System.out.print(" ");
                 
             }
             System.out.println();
