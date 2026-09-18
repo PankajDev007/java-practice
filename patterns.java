@@ -6,7 +6,7 @@ class patterns {
                     System.out.print("*");
                 }
                 else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
