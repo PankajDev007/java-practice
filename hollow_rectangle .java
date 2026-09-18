@@ -1,0 +1,3 @@
+class hollow_rectangle {
+    
+}
