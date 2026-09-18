@@ -6,8 +6,10 @@ class tst {
                 System.out.print(" ");
                 
             }
-            for(int j=1;j<=(m+2);j++) {
+            for(int j=1;j<=7;j++) {
                 System.out.print("*");
+                m+=2;
+
                 
             }
             for(int j=1;j<=(n-1);j++) {
