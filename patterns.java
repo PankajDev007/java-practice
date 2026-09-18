@@ -58,7 +58,7 @@ class patterns {
     public static void main(String[] args) {
         //hollow_rectangle(4,5);
         //inv_rot_half_pyra(4);
-        //inv_rot_half_pyra_with_no(9);
+        inv_rot_half_pyra_with_no(3);
         floyds_triangle(3);
         
     }
