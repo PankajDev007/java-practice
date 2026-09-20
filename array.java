@@ -15,7 +15,7 @@ class array{
     public static void main(String[] args) {
         insert();
         System.out.println("Array is:");
-        for(int i=arr[0];i<=arr.length;i++){
+        for(int i=1;i<=arr.length;i++){
             System.out.println(arr[i]);
         }
     }
