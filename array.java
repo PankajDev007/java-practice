@@ -4,12 +4,13 @@ class array{
         int arr[]=new int[20];
         System.out.println("Array is created");
         Scanner sc=new Scanner(System.in);
-        System.out.println("How many elements you want to insert ?");
+        System.out.print("How many elements you want to insert ?");
         int ch=sc.nextInt();
         for(int i=1;i<=ch;i++){
-            System.out.println("Enter element"+i);
+            System.out.print("Enter element"+i);
             arr[i]=sc.nextInt();
         }
+        System.out.println("Inserted !!");
 
     }
 }
