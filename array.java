@@ -13,7 +13,7 @@ class array{
     }
     public static void display(){
         System.out.println("Array is:");
-        for(int i=0;i<=arr.length;i++){
+        for(int i=arr[0];i<=(arr[i]=0);i++){
             System.out.println(arr[i]);
         }
     }
