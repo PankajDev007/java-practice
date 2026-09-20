@@ -7,16 +7,16 @@ class array{
         System.out.print("How many elements you want to insert ?");
         ch=sc.nextInt();
         for(int i=0;i<ch;i++){
-            System.out.print("Enter element"+i+":");
+            System.out.print("Enter element"+" "+i+":");
             arr[i]=sc.nextInt();
         }
         System.out.println("Inserted !!");
     
     }
     public static void display(){
-        System.out.println("Array is:");
+        System.out.print("Array is:");
         for(int i=0;i<=ch;i++){
-            System.out.println(arr[i]);
+            System.out.print("{"+arr[i]+","+"}");
         }
     }
     public static void main(String[] args) {
