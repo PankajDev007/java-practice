@@ -14,8 +14,8 @@ class array{
         create();
         System.out.println("How many elements you want to insert ?");
         int ch=sc.nextInt();
-        for(int i=0;i<ch;i++){
-            System.out.println("Enter element"+i);
+        for(int j=0;j<ch;j++){
+            System.out.println("Enter element"+j);
             insert();
         }
 
