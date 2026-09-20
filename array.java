@@ -15,7 +15,7 @@ class array{
     }
     public static void display(){
         System.out.print("Array is:");
-        System.out.println("{");
+        System.out.print("{");
         for(int i=0;i<=ch;i++){
             System.out.print(arr[i]+",");
         }
