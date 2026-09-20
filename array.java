@@ -2,9 +2,10 @@ import java.util.*;
 class array{
     public static int arr[]=new int[20];
     public static Scanner sc=new Scanner(System.in);
+    public static int ch;
     public static void insert(){
         System.out.print("How many elements you want to insert ?");
-        int ch=sc.nextInt();
+        ch=sc.nextInt();
         for(int i=0;i<ch;i++){
             System.out.print("Enter element"+i+":");
             arr[i]=sc.nextInt();
