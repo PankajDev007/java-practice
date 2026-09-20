@@ -17,7 +17,10 @@ class array{
         System.out.print("Array is:");
         System.out.print("{");
         for(int i=1;i<=ch;i++){
-            System.out.print(arr[i]+",");
+            System.out.print(arr[i]);
+            if(i<ch){
+                System.out.print(",");
+            }
         }
         System.out.print("}");
     }
