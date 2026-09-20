@@ -10,15 +10,13 @@ class array{
             arr[i]=sc.nextInt();
         }
         System.out.println("Inserted !!");
-    }
-    public static void display(){
-        System.out.println("Array is:");
-        for(int i=arr[0];i<=(arr[i]=0);i++){
-            System.out.println(arr[i]);
-        }
+    
     }
     public static void main(String[] args) {
         insert();
-        display();
+        System.out.println("Array is:");
+        for(int i=arr[0];i<=arr.length;i++){
+            System.out.println(arr[i]);
+        }
     }
 }
