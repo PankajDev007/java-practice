@@ -14,7 +14,7 @@ class array{
     }
     public static void display(){
         System.out.println("Array is:");
-        for(int i=1;i<=arr.length;i++){
+        for(int i=0;i<=arr.length;i++){
             System.out.println(arr[i]);
         }
     }
