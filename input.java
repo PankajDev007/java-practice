@@ -4,6 +4,6 @@ public class input {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter name:");
         String name=sc.next();
-        System.out.print("Welcome"+" "+name);
+        System.out.print("Welcome" " "name);
     }
 }

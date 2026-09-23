@@ -24,6 +24,9 @@ class array{
         }
         System.out.print("}");
     }
+    public static void update(){
+        
+    }
     public static void main(String[] args) {
         insert();
         display();
