@@ -7,6 +7,7 @@ class binary_search{
             mid=(start+end)/2;
             if(arr[mid]==key){
                 System.out.println("Found at "+mid);
+                break;
             }
             else if(arr[mid]>key){
                 end=mid-1;
