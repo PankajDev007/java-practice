@@ -5,10 +5,10 @@ class binary_search{
         int mid,key=52;
         while(start<=end){
             mid=(start+end)/2;
-            if(mid==key){
+            if(arr[mid]==key){
                 System.out.println("Found at "+mid);
             }
-            else if(mid>key){
+            else if(arr[mid]>key){
                 end=mid-1;
             }
             else{
