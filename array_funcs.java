@@ -45,6 +45,7 @@ class array_funcs{
             for(int k=i;k<j;k++){
                 sum+=arr[k];
             }
+            System.out.println(sum);
             if(fsum<sum){
                 fsum=sum;
                 
@@ -52,7 +53,7 @@ class array_funcs{
         }
         
         }
-        System.out.println(sum);
+        System.out.println("Max="+fsum);
         
     }
     public static void main(String[] args) {
