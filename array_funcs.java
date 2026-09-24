@@ -29,7 +29,7 @@ class array_funcs{
             for(int j=i+1;j<arr.length;j++){
             end =arr[j];
             for(int k=0;k<arr.length;k++){
-                System.out.println("("+arr[current]+","+arr[end]+")");
+                System.out.println("("+arr[i]+","+arr[j]+")");
             }
         }
             System.out.println();
