@@ -25,11 +25,11 @@ class array_funcs{
     public static void subarray(int arr[]){
         int current,end;
         for(int i=0;i<arr.length;i++){
-            current=arr[i];
+    
             for(int j=i+1;j<arr.length;j++){
-            end =arr[j];
-            for(int k=0;k<arr.length;k++){
-                System.out.println("("+arr[i]+","+arr[j]+")");
+            
+            for(int k=i;k<j;k++){
+                System.out.print(arr[k]);
             }
         }
             System.out.println();
