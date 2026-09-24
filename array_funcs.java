@@ -17,8 +17,9 @@ class array_funcs{
         for(int i=0;i<arr.length;i++){
             current=arr[i];
             for(int j=i+1;j<arr.length;j++){
-                System.out.println("("+current+","+arr[j]+")");
+                System.out.print("("+current+","+arr[j]+")");
             }
+            System.out.println();
         }
     }
     public static void main(String[] args) {
