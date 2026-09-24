@@ -15,9 +15,9 @@ class array_funcs{
     public static void pairs(int arr[]){
         int current;
         for(int i=arr[0];i<arr.length;i++){
-            //current=arr[i];
+            current=arr[i];
             for(int j=i+1;j<arr.length;j++){
-                System.out.print("("+arr[i]+","+arr[j]+")");
+                System.out.print("("+current+","+arr[j]+")");
             }
             System.out.println();
         }
