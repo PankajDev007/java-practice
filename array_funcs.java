@@ -35,10 +35,26 @@ class array_funcs{
         }
         System.out.println();
     }
+    public static void sum(int arr[]){
+        int sum=0;
+        int fsum=Integer.MIN_VALUE;
+        for(int i=0;i<arr.length;i++){
+    
+            for(int j=i+1;j<arr.length;j++){
+            
+            for(int k=i;k<j;k++){
+                sum+=arr[k];
+                System.out.print(sum);
+            }
+        }
+            System.out.println();
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
         int arr[]={21,34,56,23,67};
         //reverse(arr);
-        subarray(arr);
+        sum(arr);
         
          
     }
