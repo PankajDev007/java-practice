@@ -22,6 +22,9 @@ class array_funcs{
             System.out.println();
         }
     }
+    public static void subarray(int arr[]){
+
+    }
     public static void main(String[] args) {
         int arr[]={21,34,56,23,67};
         //reverse(arr);
