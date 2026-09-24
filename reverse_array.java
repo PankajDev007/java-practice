@@ -4,9 +4,9 @@ class reverse_array{
         int f=0,l=arr.length-1;
         for(int i=0;i<arr.length;i++){
             if(f<l){
-                int temp=arr[f];
-                arr[f]=arr[l];
-                arr[l]=temp;
+                int temp=arr[l];
+                arr[l]=arr[f];
+                arr[f]=temp;
                 
             }
             System.out.println(arr[i]);
