@@ -7,10 +7,11 @@ class binary_search{
         }
         int mid,key=42;
         int start,end=arr.length-1;
+        boolean found=false;
         for(start=arr[0];start<end;start++){
         mid=(start+end)/2;
         if(mid==key){
-            System.out.println("Found");
+            found=true;
         }
         else if(mid<key){
             start=mid+1;
@@ -20,7 +21,7 @@ class binary_search{
         }
     }
         
-
+System.out.println(found);
 
     }
 }
