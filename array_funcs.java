@@ -41,15 +41,14 @@ class array_funcs{
         for(int i=0;i<arr.length;i++){
     
             for(int j=i+1;j<arr.length;j++){
-            
+            sum=0;
             for(int k=i;k<j;k++){
                 sum+=arr[k];
-                System.out.print(sum);
             }
         }
-            System.out.println();
+        System.out.println(sum);
         }
-        System.out.println();
+        
     }
     public static void main(String[] args) {
         int arr[]={21,34,56,23,67};
