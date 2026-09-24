@@ -23,12 +23,22 @@ class array_funcs{
         }
     }
     public static void subarray(int arr[]){
-
+        int current,end;
+        for(int i=0;i<arr.length;i++){
+            current=arr[i];
+            for(int j=i+1;j<arr.length;j++){
+            end =arr[j];
+            for(int k=0;k<arr.length;k++){
+                System.out.println("("+arr[current]+","+arr[end]+")");
+            }
+        }
+            System.out.println();
+        }
     }
     public static void main(String[] args) {
         int arr[]={21,34,56,23,67};
         //reverse(arr);
-        pairs(arr);
+        subarray(arr);
         
          
     }
