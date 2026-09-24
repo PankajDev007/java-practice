@@ -45,9 +45,14 @@ class array_funcs{
             for(int k=i;k<j;k++){
                 sum+=arr[k];
             }
+            if(fsum<sum){
+                fsum=sum;
+                
+            }
+        }
+        
         }
         System.out.println(sum);
-        }
         
     }
     public static void main(String[] args) {
