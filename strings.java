@@ -1,6 +1,6 @@
 import java.util.*;
 class strings{
-    void func(String str){
+    public static void func(String str){
         for(int i=0;i<str.length();i++){
             System.out.println(i);
         }
@@ -14,7 +14,8 @@ class strings{
         str1=sc.nextLine();
         System.out.print("Enter last name:");
         str2=sc.nextLine();
-        String str3=str+" "+str2;
+        String str3=str1+" "+str2;
         System.out.println("Full name="+str3);
+        func(str3);
     }
 }
