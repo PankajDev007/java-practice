@@ -1,8 +1,8 @@
 import java.util.*;
 class strings{
     public static void main(String[] args) {
-        String str="abcd";
-        String str2=new String("Pankaj");
+        String str;
+        String str2;
         System.out.println(str2);
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter first name:");
