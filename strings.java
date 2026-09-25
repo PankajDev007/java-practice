@@ -16,6 +16,6 @@ class strings{
         str2=sc.nextLine();
         String str3=str1+" "+str2;
         //System.out.println("Full name="+str3);
-        func(str3);
+        func(str1);
     }
 }
