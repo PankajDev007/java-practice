@@ -7,11 +7,11 @@ class strings{
 
     }
     public static void main(String[] args) {
-        String str;
+        String str1;
         String str2;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter first name:");
-        str=sc.nextLine();
+        str1=sc.nextLine();
         System.out.print("Enter last name:");
         str2=sc.nextLine();
         String str3=str+" "+str2;
