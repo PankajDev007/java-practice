@@ -1,9 +1,14 @@
 import java.util.*;
 class strings{
+    void func(String str){
+        for(int i=0;i<str.length();i++){
+            System.out.println(i);
+        }
+
+    }
     public static void main(String[] args) {
         String str;
         String str2;
-        System.out.println(str2);
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter first name:");
         str=sc.nextLine();
