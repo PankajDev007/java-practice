@@ -2,7 +2,7 @@ import java.util.*;
 class strings{
     public static void func(String str){
         for(int i=0;i<str.length();i++){
-            System.out.println(i);
+            System.out.print(str.charAt(i));
         }
 
     }
@@ -15,7 +15,7 @@ class strings{
         System.out.print("Enter last name:");
         str2=sc.nextLine();
         String str3=str1+" "+str2;
-        System.out.println("Full name="+str3);
+        //System.out.println("Full name="+str3);
         func(str3);
     }
 }
