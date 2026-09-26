@@ -1,11 +1,14 @@
+import java.util.*;
 class Pallindrome{
 public static void main(String[] args) {
-        String str="aba";
+    Scanner sc=new Scanner(System.in);
+    System.out.print("Enter string:");    
+    String str=sc.nextLine();
         String str2="";
         for(int i=str.length()-1;i>=0;i--){
             str2=str2+str.charAt(i);
         }
-        if(str==str2){
+        if(str.equals(str2)){
             System.out.println("Pallindrome");
         }
         else{
